@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoreLocker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#DC3D3D</item>
+        <item name="colorPrimaryVariant">#DC3D3D</item>
+        <item name="android:statusBarColor">#DC3D3D</item>
+    </style>
+
+    <style name="Theme.LoreLocker" parent="Base.Theme.LoreLocker" />
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blockin"
+    android:layout_width="0dp"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <ImageButton
+        android:id="@+id/homebtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/homeicon"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageButton
+        android:id="@+id/worldbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/worldicon"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageButton
+        android:id="@+id/lorebtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/loreicon"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageButton
+        android:id="@+id/detailbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="16dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/detailicon"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageButton
+        android:id="@+id/storybtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/storyicon"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+</merge>
